@@ -1,1 +1,0 @@
-web: java -Dserver.port=7000 $JAVA_OPTS -jar target/demoJR-0.0.1-SNAPSHOT.jar
