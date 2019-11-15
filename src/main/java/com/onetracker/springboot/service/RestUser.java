@@ -17,7 +17,7 @@ public class RestUser {
 	private static final Logger LOGGER = Logger.getLogger(RestUser.class.getName());
 
 	@RequestMapping(
-			method = RequestMethod.GET, 
+			method = RequestMethod.POST, 
 			path = "/track", 
 			consumes = "application/json", 
 			produces = "application/json")
